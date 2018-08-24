@@ -1,0 +1,130 @@
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+Do not have a young body, but a heart of the elderly, want to learn, you will not be late
+
+
+  @property
+
+C:\Users\于浩\Documents\Tencent Files\1092968466\FileRecv
+
+
+GUI
+
+
+
+
+ 47.94.250.88
+
+
+
+
+ sudo add-apt-repository ppa:jonathonf/python-3.6
+
+
+
+   yntax on
+   set nu
+   set autoindent
+   set smartindent
+   set tabstop=4
+   set shiftwidth=4
+   set showmatch
+   set ruler
+   set cindent
+  set background=dark
+
+
+
+
+数据库的诞生：
+  人类进化过程中，创造了数字、文字、符号等进行数据较多
+记录，但是随着认知能力的提升，数据量越来越大，对于数据的记录
+和准确查找成为一个大难题。计算机诞生后，数据开始在计算机中存储并计算，
+并设计出了数据库系统
+
+数据库解决了的问题
+
+
+  1、持久化存储
+  2、优化读写
+  3、保证数据的有效性
+
+为什么要使用数据库：
+   数据量越来越大，有效存储对应的数据
+   说明： ATM系统，用户和密码
+    sunck#123456
+
+    sunck#123456
+    sunck#123456
+    sunck#123456
+    sunck#123456
+    sunck#123456
+    使用数据库存储用户的信息（账号和密码）
+   类比（mysql充当文件管理的一个软件）：
+         服务端: socket服务端
+                     解析指令（sql 语句）
+                     本地文件的操作
+
+         客户端：socket客户端
+                      发出指令（sql语句）
+
+
+分类： 
+       文档型：例如sqlit 。就是一个文件，通过对文件的复制完成数据库的复制
+
+       服务型：例如mysql ，数据存储在一个物理文件中，但是需要使用终端以
+       tcp/ip协议链接，进行数据库的读写操作
+
+三范式：
+     概念：经过研究和对使用中问题的总结，对于设计数据库提出了一些规范，
+    这些范式成为范式
+    范式：
+          第一范式：列不可拆分
+          第二范式：唯一标识
+          第三范式：引用主键
+
+E-R 模型：
+     当前物理的数据库就是按照E_R模型进行设计的
+   E： 标识entry，实体
+   R：标识relationship，关系
+    一个实体对应转换为数据库中的一个表
+
+   关系描述
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
